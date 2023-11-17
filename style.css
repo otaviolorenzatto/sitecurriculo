@@ -71,7 +71,7 @@ header>.interface {
 }
 
 header a {
-    color: #5c5c5c;
+    color: #bababa;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -160,7 +160,7 @@ section.redes .flex {
     padding-left: 40px;
     transform: translate(-50%, -50%);
     font-size: 70px;
-    color: #00FF08;
+    color: rgb(255, 255, 255);
 }
 
 .redes .redes-box h3 {
@@ -276,7 +276,6 @@ footer .line-footer p a {
         width: 100%;
     }
 
-
     section.redes {
         padding: 40px 8%;
     }
@@ -306,5 +305,5 @@ footer .line-footer p a {
     footer .line-footer {
         text-align: center;
     }
-    
+
 }

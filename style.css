@@ -218,8 +218,10 @@ section.portfolio .flex {
 
 
 footer {
-    padding: 40px 4%;
-    box-shadow: 0 0 40px 10px #ffffff1d;
+    padding: 10px 0;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff
 }
 
 footer .flex {
@@ -297,13 +299,7 @@ footer .line-footer p a {
 
 
 
-    footer .flex {
-        flex-direction: column;
-        gap: 30px;
-    }
+    
 
-    footer .line-footer {
-        text-align: center;
-    }
-
+    
 }

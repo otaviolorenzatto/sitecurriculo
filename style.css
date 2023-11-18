@@ -15,7 +15,8 @@ body {
     position: absolute;
     top: 40px;
     left: 0px;
-    margin-left: 80px;  
+    margin-left: 80px;
+
     .auto-type {
         color: #00FF08;
         font-family: 'Inconsolata', monospace;
@@ -31,7 +32,7 @@ body {
     display: flex;
 }
 
-.flex2{
+.flex2 {
     display: flex;
     margin-left: 200px;
 }
@@ -90,7 +91,6 @@ header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
 }
-
 
 section.sobre {
     padding: 80px 4%;
@@ -245,15 +245,30 @@ footer .line-footer p a {
     color: #fff;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1225px) {
+    .typing {
+        font-size: 9px;
+        top: 10px;
+        right: 100px;
+    }
 
+    .bi bi-arrow-up {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
 
     .flex {
         flex-direction: column;
     }
 
-    .sobre .flex {
-        flex-direction: column-reverse;
+    .flex2 {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     h2.titulo {
@@ -261,7 +276,7 @@ footer .line-footer p a {
         line-height: 30px;
     }
 
-    
+
     section.sobre .flex {
         gap: 40px;
     }
@@ -274,14 +289,13 @@ footer .line-footer p a {
         font-size: 30px;
     }
 
-    .sobre .img-topo-site img {
-        width: 100%;
+    .sobre .img-sobre img {
+        width: 80%;
     }
 
     section.redes {
         padding: 40px 8%;
     }
-
 
     section.portfolio {
         padding: 80px 8%;
@@ -299,7 +313,7 @@ footer .line-footer p a {
 
 
 
-    
 
-    
+
+
 }
